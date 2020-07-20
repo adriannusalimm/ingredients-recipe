@@ -16,10 +16,10 @@ function App() {
       </header>
 
       <main role="main" className="inner cover">
-        <h1 className="cover-heading">Search Bar</h1>
-        <p className="lead">
-          <a href="#" className="btn btn-lg btn-secondary">Search</a>
-        </p>
+        <form>
+          <input type="search" className="search-bar form-control mx-auto" placeholder="Search for recipes..." />
+          <button type="submit" className="btn btn-lg btn-success">Search</button>
+        </form>
       </main>
 
       <footer className="mastfoot mt-auto">
