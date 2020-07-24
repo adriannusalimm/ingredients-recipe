@@ -45,8 +45,7 @@ const App = () => {
   }
 
   return (
-    // <Router>
-    <Router basename={'tes'}>
+    <Router>
       <div className="cover-container d-flex p-3 flex-column">
 
         <Header />
